@@ -1,2 +1,0 @@
-/home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/source/CMakeFiles/helloworld.dir
-/home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/source/CMakeFiles/tests.dir
