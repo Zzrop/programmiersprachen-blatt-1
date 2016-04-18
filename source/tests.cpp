@@ -27,6 +27,41 @@ int checksum(int a){
 
 }
 
+int sumMultiples(){
+
+	int c = 0;
+
+	for(int i = 1; i <= 1000; i++){
+		if(i%3 == 0){
+			c = c+i;
+		}
+
+		else if(i%5 == 0){
+			c = c+i;
+		}
+	}
+
+	return c;
+}
+
+int sumMultiplesnum(int a){
+
+	int c = 0;
+
+	for(int i = 1; i <= a; i++){
+		if(i%3 == 0){
+			c = c+i;
+		}
+
+		else if(i%5 == 0){
+			c = c+i;
+		}
+	}
+
+	return c;
+}
+
+
 TEST_CASE("größter gemeinsamer teiler","gcd"){
 
 	REQUIRE(gcd(2,4) == 2);
@@ -41,6 +76,15 @@ TEST_CASE("berechnung der quersumme","checksum"){
 	REQUIRE(checksum(115071) == 15);
 }
 
+TEST_CASE("addition der durch 3 und 5 teilbaren Zahlen","sumMultiples"){
+
+	REQUIRE(sumMultiplesnum(3) == 3);
+	REQUIRE(sumMultiplesnum(5) == 8);
+	REQUIRE(sumMultiplesnum(9) == 23);
+	REQUIRE(sumMultiplesnum(11) == 33);
+	REQUIRE(sumMultiples() == 234168);
+
+}
 
 int main(int argc, char* argv[])
 {
