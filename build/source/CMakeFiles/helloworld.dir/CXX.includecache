@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/source/helloworld.cpp
+iostream
+-
+
