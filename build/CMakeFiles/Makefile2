@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld
+CMAKE_SOURCE_DIR = /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build
+CMAKE_BINARY_DIR = /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build
 
 #=============================================================================
 # Directory level rules for directory source
@@ -76,7 +76,7 @@ source/preinstall:
 source/CMakeFiles/helloworld.dir/all:
 	$(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/depend
 	$(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/CMakeFiles  1
 	@echo "Built target helloworld"
 .PHONY : source/CMakeFiles/helloworld.dir/all
 
@@ -86,9 +86,9 @@ all: source/CMakeFiles/helloworld.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/helloworld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/CMakeFiles 0
 .PHONY : source/CMakeFiles/helloworld.dir/rule
 
 # Convenience name for target.
@@ -111,7 +111,7 @@ clean: source/CMakeFiles/helloworld.dir/clean
 source/CMakeFiles/tests.dir/all:
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/depend
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/CMakeFiles  2
 	@echo "Built target tests"
 .PHONY : source/CMakeFiles/tests.dir/all
 
@@ -121,9 +121,9 @@ all: source/CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/build/CMakeFiles 0
 .PHONY : source/CMakeFiles/tests.dir/rule
 
 # Convenience name for target.

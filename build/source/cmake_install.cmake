@@ -1,4 +1,4 @@
-# Install script for directory: /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-helloworld/source
+# Install script for directory: /home/max/Dropbox/Studiumprivat/SoSe2016/Programiersprachen/Abgabe1/programmiersprachen-blatt-1/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
