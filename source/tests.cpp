@@ -70,6 +70,16 @@ float fract(float a){
 	return a;
 }
 
+float surfacez(float a, float b){
+
+	return 1;
+}
+
+float volumez(float a,float b){
+
+	return 1;
+}
+
 
 TEST_CASE("größter gemeinsamer teiler","gcd"){
 
