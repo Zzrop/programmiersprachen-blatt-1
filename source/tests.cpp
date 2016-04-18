@@ -15,9 +15,15 @@ int gcd(int a, int b){
 }
 
 int checksum(int a){
+	int b = 0;
 
+	while(a!=0){
+		b = b+(a%10);
+		a = (a-(a%10))/10; 
+	}
 
-	return 1;
+	return b;
+
 
 }
 
@@ -30,7 +36,7 @@ TEST_CASE("größter gemeinsamer teiler","gcd"){
 
 TEST_CASE("berechnung der quersumme","checksum"){
 
-	REQUIRE(checksum(223) == 6);
+	REQUIRE(checksum(123) == 6);
 	REQUIRE(checksum(100) == 1);
 	REQUIRE(checksum(115071) == 15);
 }
