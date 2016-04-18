@@ -61,6 +61,15 @@ int sumMultiplesnum(int a){
 	return c;
 }
 
+float fract(float a){
+
+	int b = a;
+
+	a= a-b;
+
+	return a;
+}
+
 
 TEST_CASE("größter gemeinsamer teiler","gcd"){
 
@@ -83,6 +92,14 @@ TEST_CASE("addition der durch 3 und 5 teilbaren Zahlen","sumMultiples"){
 	REQUIRE(sumMultiplesnum(9) == 23);
 	REQUIRE(sumMultiplesnum(11) == 33);
 	REQUIRE(sumMultiples() == 234168);
+
+}
+
+TEST_CASE("berechnung des nachkomma-anteils","fract"){
+
+	REQUIRE(fract(4.0/3.0) == Approx(0.33333));
+	REQUIRE(fract(1.0/3.0) == Approx(0.33333));
+	REQUIRE(fract(3.0/4.0) == Approx(0.75));
 
 }
 
