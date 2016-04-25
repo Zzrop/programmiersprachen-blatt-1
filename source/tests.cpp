@@ -72,12 +72,12 @@ float fract(float a){
 
 float surfacez(float a, float b){
 
-	return 1;
+	 return 2*(M_PI)*pow(a,2.0)+2*(M_PI)*a*b;
 }
 
 float volumez(float a,float b){
 
-	return 1;
+	return (M_PI)*pow(a,2.0)*b;
 }
 
 
@@ -113,6 +113,15 @@ TEST_CASE("berechnung des nachkomma-anteils","fract"){
 
 }
 
+TEST_CASE("Zylinder funktionen","surfacez/volumez"){
+
+	REQUIRE(surfacez(1.0,3.0) == Approx(25.133));
+	REQUIRE(volumez(1.0,3.0) == Approx(9.42478));
+
+	REQUIRE(surfacez(0.5,1.0) == Approx(4.71238));
+	REQUIRE(volumez(0.5,1.0) == Approx(0.785398));
+
+}
 int main(int argc, char* argv[])
 {
   return Catch::Session().run(argc, argv);
